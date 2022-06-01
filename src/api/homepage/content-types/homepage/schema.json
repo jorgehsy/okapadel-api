@@ -22,8 +22,7 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": true
+      "type": "richtext"
     },
     "subtitle": {
       "pluginOptions": {
@@ -31,7 +30,37 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "richtext"
+    },
+    "integralService": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section-list"
+    },
+    "advantagesList": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section-list"
+    },
+    "promoSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section-image"
     },
     "seo": {
       "type": "component",

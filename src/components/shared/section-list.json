@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_section_lists",
+  "info": {
+    "displayName": "SectionList",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "items": {
+      "type": "richtext"
+    }
+  }
+}

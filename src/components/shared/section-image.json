@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_section_images",
+  "info": {
+    "displayName": "SectionImage",
+    "icon": "digital-tachograph"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
