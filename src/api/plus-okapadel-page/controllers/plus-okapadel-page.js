@@ -1,12 +1,12 @@
 'use strict';
 
 /**
- *  proyecto controller
+ *  plus-okapadel-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::proyecto.proyecto', ({ strapi }) => ({
+module.exports = createCoreController('api::plus-okapadel-page.plus-okapadel-page', ({ strapi }) => ({
     async find(ctx) {
         const populateList = [
             'firstSection.*',

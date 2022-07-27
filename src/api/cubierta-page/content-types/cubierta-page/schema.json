@@ -30,9 +30,10 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": false
     },
-    "seo": {
+    "firstSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -40,7 +41,37 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.two-column"
+    },
+    "secondSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "thirdSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.contact-header"
     }
   }
 }

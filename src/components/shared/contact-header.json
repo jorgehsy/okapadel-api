@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_contact_headers",
+  "info": {
+    "displayName": "contactHeader",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}

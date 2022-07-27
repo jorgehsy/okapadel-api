@@ -12,8 +12,9 @@
   "devDependencies": {},
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/plugin-graphql": "^4.2.3",
     "@strapi/plugin-i18n": "4.1.10",
-    "@strapi/plugin-seo": "^1.7.2",
+    "@strapi/plugin-seo": "^1.7.3",
     "@strapi/plugin-users-permissions": "4.1.10",
     "@strapi/strapi": "4.1.10",
     "better-sqlite3": "7.4.6",

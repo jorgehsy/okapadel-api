@@ -9,9 +9,10 @@ const { createCoreController } = require('@strapi/strapi').factories;
 module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => ({
     async find(ctx) {
         const populateList = [
-            'integralService.*',
-            'advantagesList.*',
-            'promoSection.*',
+            'firstSection.*',
+            'secondSection.*',
+            'thirdSection.*',
+            'contact.*',
             'seo.*'
         ]
         // Push any additional query params to the array

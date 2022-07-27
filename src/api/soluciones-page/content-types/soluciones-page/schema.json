@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pista_pages",
+  "collectionName": "soluciones_pages",
   "info": {
-    "singularName": "pista-page",
-    "pluralName": "pista-pages",
-    "displayName": "PistaPage",
-    "description": ""
+    "singularName": "soluciones-page",
+    "pluralName": "soluciones-pages",
+    "displayName": "SolucionesPage"
   },
   "options": {
     "draftAndPublish": true

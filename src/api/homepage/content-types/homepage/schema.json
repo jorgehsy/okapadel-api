@@ -22,7 +22,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
       "pluginOptions": {
@@ -30,9 +31,10 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "string",
+      "required": false
     },
-    "integralService": {
+    "firstSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -40,9 +42,9 @@
           "localized": true
         }
       },
-      "component": "shared.section-list"
+      "component": "shared.two-column"
     },
-    "advantagesList": {
+    "secondSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -50,9 +52,9 @@
           "localized": true
         }
       },
-      "component": "shared.section-list"
+      "component": "shared.two-column"
     },
-    "promoSection": {
+    "thirdSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -60,9 +62,9 @@
           "localized": true
         }
       },
-      "component": "shared.section-image"
+      "component": "shared.two-column"
     },
-    "seo": {
+    "contact": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -70,7 +72,7 @@
           "localized": true
         }
       },
-      "component": "shared.seo"
+      "component": "shared.contact-header"
     }
   }
 }

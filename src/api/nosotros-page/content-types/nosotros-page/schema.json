@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pista_pages",
+  "collectionName": "nosotros_pages",
   "info": {
-    "singularName": "pista-page",
-    "pluralName": "pista-pages",
-    "displayName": "PistaPage",
-    "description": ""
+    "singularName": "nosotros-page",
+    "pluralName": "nosotros-pages",
+    "displayName": "NosotrosPage"
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +21,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
       "pluginOptions": {

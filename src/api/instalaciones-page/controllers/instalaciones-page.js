@@ -1,12 +1,12 @@
 'use strict';
 
 /**
- *  proyecto controller
+ *  instalaciones-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::proyecto.proyecto', ({ strapi }) => ({
+module.exports = createCoreController('api::instalaciones-page.instalaciones-page', ({ strapi }) => ({
     async find(ctx) {
         const populateList = [
             'firstSection.*',

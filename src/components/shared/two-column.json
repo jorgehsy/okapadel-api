@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_two_columns",
+  "info": {
+    "displayName": "TwoColumn",
+    "icon": "columns"
+  },
+  "options": {},
+  "attributes": {
+    "leftColumn": {
+      "type": "richtext"
+    },
+    "rightColumn": {
+      "type": "richtext"
+    }
+  }
+}
