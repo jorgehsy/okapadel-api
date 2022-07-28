@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cubierta_single_padel_pages",
+  "info": {
+    "singularName": "cubierta-single-padel-page",
+    "pluralName": "cubierta-single-padel-pages",
+    "displayName": "CubiertaSinglePadelPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}
