@@ -18,7 +18,8 @@ module.exports = createCoreController('api::basic-court-page.basic-court-page', 
             'seventhSection.*',
             'eighthSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

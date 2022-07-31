@@ -13,7 +13,8 @@ module.exports = createCoreController('api::calidad-page.calidad-page', ({ strap
             'secondSection.*',
             'thirdSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

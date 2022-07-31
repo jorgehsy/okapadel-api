@@ -18,7 +18,8 @@ module.exports = createCoreController('api::panoramic-court-page.panoramic-court
             'seventhSection.*',
             'eighthSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

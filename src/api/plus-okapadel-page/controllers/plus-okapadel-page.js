@@ -13,7 +13,8 @@ module.exports = createCoreController('api::plus-okapadel-page.plus-okapadel-pag
             'secondSection.*',
             'thirdSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

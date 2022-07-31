@@ -13,7 +13,8 @@ module.exports = createCoreController('api::soluciones-page.soluciones-page', ({
             'secondSection.*',
             'thirdSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)

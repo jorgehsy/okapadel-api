@@ -13,7 +13,8 @@ module.exports = createCoreController('api::cubierta-single-padel-page.cubierta-
             'secondSection.*',
             'thirdSection.*',
             'contact.*',
-            'seo.*'
+            'seo.*',
+'seo.metaImage'
         ]
         // Push any additional query params to the array
         populateList.push(ctx.query.populate)
