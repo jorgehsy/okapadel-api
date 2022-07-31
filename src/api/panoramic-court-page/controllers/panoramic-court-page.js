@@ -1,17 +1,22 @@
 'use strict';
 
 /**
- *  cubierta-single-padel-page controller
+ *  panoramic-court-page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::cubierta-single-padel-page.cubierta-single-padel-page', ({ strapi }) => ({
+module.exports = createCoreController('api::panoramic-court-page.panoramic-court-page', ({ strapi }) => ({
     async find(ctx) {
         const populateList = [
             'firstSection.*',
             'secondSection.*',
             'thirdSection.*',
+            'fourthSection.*',
+            'fifthSection.*',
+            'sixthSection.*',
+            'seventhSection.*',
+            'eighthSection.*',
             'contact.*',
             'seo.*'
         ]

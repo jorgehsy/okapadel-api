@@ -1,10 +1,11 @@
 {
   "kind": "singleType",
-  "collectionName": "cubierta_multy_padel_pages",
+  "collectionName": "panoramic_court_pages",
   "info": {
-    "singularName": "cubierta-multy-padel-page",
-    "pluralName": "cubierta-multy-padel-pages",
-    "displayName": "CubiertaMultyPadelPage"
+    "singularName": "panoramic-court-page",
+    "pluralName": "panoramic-court-pages",
+    "displayName": "PanoramicCourtPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -30,8 +31,7 @@
           "localized": true
         }
       },
-      "type": "string",
-      "required": false
+      "type": "string"
     },
     "firstSection": {
       "type": "component",
@@ -54,6 +54,56 @@
       "component": "shared.two-column"
     },
     "thirdSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "fourthSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "fifthSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "sixthSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "seventhSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.two-column"
+    },
+    "eighthSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
