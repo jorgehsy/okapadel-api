@@ -10,22 +10,25 @@
     "metaTitle": {
       "required": true,
       "type": "string",
-      "maxLength": 60
+      "maxLength": 70,
+      "default": "Okapadel - Servicio Integral de Pistas de Pádel Cubiertas y Clubes",
+      "unique": true,
+      "minLength": 8
     },
     "metaDescription": {
       "type": "string",
       "required": true,
-      "maxLength": 160,
-      "minLength": 50
+      "maxLength": 156,
+      "minLength": 135,
+      "unique": true,
+      "default": "Okapadel es un Servicio Integral de Fabricación, Instalación y Mantenimiento de Pistas de Pádel Cubiertas y Clubes de Pádel con calidad oficial WPT."
     },
     "metaImage": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ]
     },
     "keywords": {
@@ -46,6 +49,9 @@
       "type": "string"
     },
     "DC": {
+      "type": "string"
+    },
+    "microdataName": {
       "type": "string"
     }
   }
